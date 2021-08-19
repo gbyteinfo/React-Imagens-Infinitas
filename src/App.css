@@ -28,9 +28,12 @@ section .span-nome-idade{
     align-items: center !important;
 
 }
-
 .caixa .center{
     text-align: center;    
+}
+.caixa .texto button{
+    float: right !important;    
+    margin-right: 10px;
 }
 
 
