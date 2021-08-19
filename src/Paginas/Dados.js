@@ -1,4 +1,5 @@
 import React from 'react';
+import DataHorario from './DataHorario';
 import Componente1 from '../Componentes/Componente1';
 
 export default function Dados(props){

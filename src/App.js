@@ -1,5 +1,6 @@
 import './App.css';
 import Dados from './Paginas/Dados';
+import DataHorario from './Paginas/DataHorario';
 
 export default function App() {
   
@@ -9,6 +10,7 @@ export default function App() {
     <>
 
       <section className={'caixa'}>
+        <DataHorario />
         <Dados titulo={title} />
       </section>
 
