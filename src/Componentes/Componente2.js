@@ -6,7 +6,7 @@ export default function Componente2(props){
     const[randomImagem2, setRandomImagem2] = useState(101)
     const img3 = (randomImagem3) => {
         let imagem = 'https://picsum.photos/300/180?random=' + randomImagem3
-        console.log("Imagem2: Random=", randomImagem3)
+        console.log("Imagem3: Random=", randomImagem3)
         return imagem
     } 
 

@@ -35,5 +35,8 @@ section .span-nome-idade{
     float: right !important;    
     margin-right: 10px;
 }
+.center h2{
+    font-size: 15px;
+}
 
 

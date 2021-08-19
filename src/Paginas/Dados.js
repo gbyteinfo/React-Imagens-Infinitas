@@ -20,8 +20,9 @@ export default function Dados(props){
         
         <section >
             <div className={'center'}>
-              <span>Nome: {autor} - Idade: {idade()} anos</span>
-              <h2>{props.titulo}</h2>
+              <span>Nome: {autor} </span>
+              <h2>{props.titulo} - v0.{idade()}</h2>
+              
             </div>
             <Componente1 img={img1} />
 

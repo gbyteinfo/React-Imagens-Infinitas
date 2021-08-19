@@ -4,7 +4,7 @@ import DataHorario from './Paginas/DataHorario';
 
 export default function App() {
 
-  const title = 'App React Laboratório'
+  const title = 'App Imagens Aleatórias Infinito'
   
   return (
     <>
