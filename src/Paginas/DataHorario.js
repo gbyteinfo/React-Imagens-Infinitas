@@ -5,11 +5,12 @@ export default function DataHorario(){
         let date = new Date()
         return date
     }
+    
     return(
         <>
 
             <span>
-                Hoje {dh().toLocaleDateString()},
+                Hoje {dh().getDate()}/{dh().getMonth()}/{dh().getFullYear()},
                 exatamente as <b>{dh().toLocaleTimeString()}</b>
             </span> 
 

@@ -3,7 +3,7 @@ import Componente1 from '../Componentes/Componente1';
 
 export default function Dados(props){
   const img1 = (randomImagem1) =>{ 
-    let imagem1 = 'https://picsum.photos/300/120?random=' + randomImagem1
+    let imagem1 = 'https://picsum.photos/300/180?random=' + randomImagem1
     console.log("Imagem1: Random= ", randomImagem1)
     return imagem1
   }
