@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Componente1 from './Componentes/Componente1'
+import Dados from './Paginas/Dados';
 
-function App() {
+export default function App() {
+
+  const img1 = () =>{
+    return 'https://picsum.photos/300/100?random=1'
+  }
+  const idade = (valor1, valor2) => {
+    return valor1 - valor2
+  }
+  const autor = 'Jorge Mira '
+  const title = 'App React Laboratório'
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <section className={'caixa'}>
+        <Dados titulo={title} />
+        <Componente1 nome={autor} idade={idade} imagem2={img1} />
+      </section>
+
+  </>
   );
 }
 
-export default App;
