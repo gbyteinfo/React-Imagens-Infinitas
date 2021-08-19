@@ -2,9 +2,9 @@ import React, {useState} from 'react';
 import Componente1 from '../Componentes/Componente1';
 
 export default function Dados(props){
-  const autor = 'Jorge Mira '
   const img1 = (randomImagem1) =>{ 
-    let imagem1 = 'https://picsum.photos/300/100?random=' + randomImagem1
+    let imagem1 = 'https://picsum.photos/300/120?random=' + randomImagem1
+    console.log("Imagem1: Random= ", randomImagem1)
     return imagem1
   }
   const idade = () => {
@@ -13,6 +13,7 @@ export default function Dados(props){
     const idade = valor1 - valor2
     return idade
   }
+  const autor = 'Jorge Mira '
 
     return(
     <>
