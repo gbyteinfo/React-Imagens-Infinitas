@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+React-JavaScript-Hooks-Functions. Branch: React-Aplicacao - Deploy Heroku. App v 0.35 
+https://github.com/gbyteinfo/React-Aplicacao-Lab/blob/React-Aplicacao/imagens-aleatorias-infinito.jpg
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
