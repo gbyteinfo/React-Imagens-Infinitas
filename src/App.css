@@ -22,4 +22,15 @@
     padding: 0px;
     border: none;
 }
+section .span-nome-idade{
+    align-content: center !important;
+    text-align: center ;
+    align-items: center !important;
+
+}
+
+.caixa .center{
+    text-align: center;    
+}
+
 

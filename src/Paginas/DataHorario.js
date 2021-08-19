@@ -10,7 +10,7 @@ export default function DataHorario(){
 
             <span>
                 Hoje {dh().toLocaleDateString()},
-                exatamente as {dh().toLocaleTimeString()}
+                exatamente as <b>{dh().toLocaleTimeString()}</b>
             </span> 
 
         </>
